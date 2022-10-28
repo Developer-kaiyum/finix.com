@@ -133,6 +133,29 @@ body .btn-primary::after{
 body .btn-primary:hover::after{
  width: 100%;
 }
+@media screen and (max-width: 1000px){
+  .header-menu li ul{
+   margin-left: 100px;
+   margin-top: -40px;
+  }
+  .header-menu li{
+    width: 100px;
+  }
+  .header-info .header-search{
+    visibility: hidden;
+    opacity: 0;
+  }
+ 
+  .header-button{
+   position: absolute;
+   top: 3%;
+   right: 11%;
+   margin-right: 20px;
+  }
+  .header-menu{
+    height: 480px;
+  }
+}
 /*..banner..*/
 .banner-section{
   background: url(img/main-banner2.jpg) no-repeat top center ;
