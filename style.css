@@ -135,11 +135,11 @@ body .btn-primary:hover::after{
 }
 @media screen and (max-width: 1000px){
   .header-menu li ul{
-   margin-left: 100px;
+   margin-left: 110px;
    margin-top: -40px;
   }
   .header-menu li{
-    width: 100px;
+    width: 120px;
   }
   .header-info .header-search{
     visibility: hidden;
@@ -148,9 +148,9 @@ body .btn-primary:hover::after{
  
   .header-button{
    position: absolute;
-   top: 3%;
-   right: 11%;
-   margin-right: 20px;
+   top: 2%;
+   right: 12%;
+   margin-right: 25px;
   }
   .header-menu{
     height: 480px;
